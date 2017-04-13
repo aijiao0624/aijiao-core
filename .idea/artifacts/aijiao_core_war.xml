@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="aijiao-core:war">
+    <output-path>$PROJECT_DIR$/../aijiao-core/target</output-path>
+    <root id="archive" name="aijiao-core.war">
+      <element id="artifact" artifact-name="aijiao-core:war exploded" />
+    </root>
+  </artifact>
+</component>
