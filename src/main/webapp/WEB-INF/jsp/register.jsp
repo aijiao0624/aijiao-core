@@ -6,13 +6,23 @@
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
-    <title>首页</title>
+    <title>注册</title>
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<div style="margin: auto">
-    <a href="/user/login">登录</a></br>
-    <a href="/user/register">注册</a>
+<div>
+    <a href="../../index.jsp">首页</a>
+</div>
+<div>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">邮箱</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            <label for="exampleInputPassword">密码</label>
+            <input type="email" class="form-control" id="exampleInputPassword" placeholder="Email">
+            <button type="submit" class="btn btn-primary">注册</button>
+        </div>
+    </form>
 </div>
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
